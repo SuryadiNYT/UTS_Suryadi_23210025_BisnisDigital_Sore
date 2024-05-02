@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+section {
+    padding-top: 70px;
+}
+
+p {
+    
+    color: rgb(255, 255, 255);
+}
+
+nav,
+.nav-links {
+    color: white;
+    display: flex;
+}
+
+nav {
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links {
+    color: white;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5 rem;
+}
+
+.dropdown {
+    color: white;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(255, 255, 255);
+
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+.picture {
+    padding-top: 100px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+#hobby {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.hobby ul li {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#favoritefood {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.favoritefood ul li {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#contact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.email {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.email img{
+    width: 30px;
+    height: 25px;
+}
+
+.number {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.number img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.number p {
+    margin-top: 10px;
+    color: black;
+}
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
